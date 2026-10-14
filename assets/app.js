@@ -607,7 +607,7 @@
   (function loadRepos() {
     var block = $('#more-repos'), host = $('#repos');
     var SKIP_NAMES = ['multimodal-emotion-recognition-and-reasoning'];   // shown as the featured project above
-    var SKIP_IDS = [1169720950];                                          // learning-roadmap repo, hidden on purpose (id survives renames)
+    var SKIP_IDS = [1169720950, 1419505212];                              // hidden on purpose (ids survive renames): learning-roadmap repo, and this website's own repo
     var KEY = 'gh-repos-v1';
 
     function render(list) {

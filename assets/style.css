@@ -61,6 +61,7 @@ p { margin: 0 0 1em; }
 .site-header { position: sticky; top: 0; z-index: 50; -webkit-backdrop-filter: blur(12px); backdrop-filter: blur(12px); background: color-mix(in srgb, var(--bg) 82%, transparent); border-bottom: 1px solid var(--border); }
 .bar { display: flex; align-items: center; justify-content: space-between; gap: 16px; height: 64px; }
 .brand span { white-space: nowrap; }
+.brand { min-width: 44px; }
 .brand { display: flex; align-items: center; gap: 10px; min-height: 44px; color: var(--text); text-decoration: none; font-weight: 700; letter-spacing: .2px; }
 .nav { display: flex; gap: 4px; }
 .nav a { color: var(--muted); text-decoration: none; padding: 8px 12px; border-radius: 999px; font-size: .95rem; transition: .2s; }
