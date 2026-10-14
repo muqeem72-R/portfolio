@@ -5,8 +5,10 @@
     </linearGradient>
   </defs>
   <rect width="64" height="64" rx="16" fill="url(#tile)"/>
-  <!-- M, upright: left leg and right leg -->
-  <path d="M19 52V13 M45 52V13" fill="none" stroke="#ffffff" stroke-width="4.6" stroke-linecap="round" stroke-linejoin="round"/>
-  <!-- K, turned 90 degrees: its two arms are the V of the M, its stem is the horizontal bar through the tip of the V -->
-  <path d="M19 13L32.0 36L45 13 M7 36H57" fill="none" stroke="#fde68a" stroke-width="4.6" stroke-linecap="round" stroke-linejoin="round"/>
+  <g transform="translate(32 32.5) rotate(45) scale(1.12) translate(-32 -32.5)">
+    <!-- M, upright before the turn: left leg and right leg -->
+    <path d="M19 52V13 M45 52V13" fill="none" stroke="#ffffff" stroke-width="5.4" stroke-linecap="round" stroke-linejoin="round"/>
+    <!-- K, on its side before the turn: its arms are the V of the M, its stem is the bar through the tip of the V -->
+    <path d="M19 13L32 36L45 13 M7 36H57" fill="none" stroke="#fde68a" stroke-width="5.4" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
 </svg>
