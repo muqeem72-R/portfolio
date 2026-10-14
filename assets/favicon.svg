@@ -1,14 +1,17 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="MK monogram">
   <defs>
-    <linearGradient id="tile" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#6366f1"/><stop offset="0.55" stop-color="#8b5cf6"/><stop offset="1" stop-color="#14b8a6"/>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1d1650"/><stop offset=".45" stop-color="#6d2a8c"/><stop offset=".78" stop-color="#e2557a"/><stop offset="1" stop-color="#ff9a3c"/>
     </linearGradient>
+    <clipPath id="round"><rect width="64" height="64" rx="16"/></clipPath>
   </defs>
-  <rect width="64" height="64" rx="16" fill="url(#tile)"/>
-  <g transform="translate(32 32.5) rotate(45) scale(1.12) translate(-32 -32.5)">
-    <!-- M, upright before the turn: left leg and right leg -->
-    <path d="M19 52V13 M45 52V13" fill="none" stroke="#ffffff" stroke-width="5.4" stroke-linecap="round" stroke-linejoin="round"/>
-    <!-- K, on its side before the turn: its arms are the V of the M, its stem is the bar through the tip of the V -->
-    <path d="M19 13L32 36L45 13 M7 36H57" fill="none" stroke="#fde68a" stroke-width="5.4" stroke-linecap="round" stroke-linejoin="round"/>
+  <g clip-path="url(#round)">
+    <rect width="64" height="64" fill="url(#sky)"/>
+    <path d="M0 55C12 50 24 52 34 55S54 57 64 52V64H0Z" fill="#f2a93b"/>
+    <path d="M0 61C14 57 30 62 44 61S58 59.5 64 60V64H0Z" fill="#c4622a"/>
+  </g>
+  <g transform="translate(32 31) rotate(45) scale(1.08) translate(-32 -32.5)" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <g stroke="#1a1040" stroke-opacity=".55" stroke-width="8.6"><path d="M19 52V13"/><path d="M45 52V13"/><path d="M19 13L32 36"/><path d="M45 13L32 36"/><path d="M7 36H57"/></g>
+    <g stroke-width="6.2"><path d="M19 52V13" stroke="#22d3c5"/><path d="M45 52V13" stroke="#ff4fa3"/><path d="M19 13L32 36" stroke="#ffd23f"/><path d="M45 13L32 36" stroke="#ffffff"/><path d="M7 36H57" stroke="#6ee7a1"/></g>
   </g>
 </svg>

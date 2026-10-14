@@ -41,7 +41,8 @@ index.html            page content
 assets/style.css      styles
 assets/app.js         interactivity, translations, problem bank
 assets/lab.js         the three lab tools
-assets/logo.svg       logo (favicon.svg is the same file)
+assets/logo.svg       logo with the Rajasthan desert scene (hero, 404, share preview)
+assets/logo-small.svg simplified logo for tiny sizes (header; favicon.svg is the same file)
 assets/*.pdf          resume
 _headers              security headers for Cloudflare Pages
 robots.txt            crawler rules
