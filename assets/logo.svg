@@ -1,18 +1,12 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="MK monogram">
   <defs>
     <linearGradient id="tile" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#6366f1"/>
-      <stop offset="0.55" stop-color="#8b5cf6"/>
-      <stop offset="1" stop-color="#14b8a6"/>
-    </linearGradient>
-    <linearGradient id="arm" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#ffffff"/>
-      <stop offset="1" stop-color="#ccfbf1"/>
+      <stop offset="0" stop-color="#6366f1"/><stop offset="0.55" stop-color="#8b5cf6"/><stop offset="1" stop-color="#14b8a6"/>
     </linearGradient>
   </defs>
   <rect width="64" height="64" rx="16" fill="url(#tile)"/>
-  <!-- M: left leg, V, and a right leg that doubles as the stem of the K -->
-  <path d="M13 47V17L25.5 34L38 17V47" fill="none" stroke="#fff" stroke-width="5.2" stroke-linecap="round" stroke-linejoin="round"/>
-  <!-- K: two arms branching off the shared stem -->
-  <path d="M38 33L52 17M41.5 30.5L52 47" fill="none" stroke="url(#arm)" stroke-width="5.2" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- M, upright: left leg and right leg -->
+  <path d="M19 52V13 M45 52V13" fill="none" stroke="#ffffff" stroke-width="4.6" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- K, turned 90 degrees: its two arms are the V of the M, its stem is the horizontal bar through the tip of the V -->
+  <path d="M19 13L32.0 36L45 13 M7 36H57" fill="none" stroke="#fde68a" stroke-width="4.6" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>
