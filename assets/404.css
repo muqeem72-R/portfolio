@@ -1,0 +1,14 @@
+/* Styles for the "page not found" page. It follows the visitor's system light/dark setting. */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #0b1020; --bg-alt: #0f1630; --surface: #141c3a; --text: #e8ecff; --muted: #9aa6cc; --border: #243058;
+    --accent: #8b8dff; --accent-2: #2dd4bf; --accent-ink: #0b1020; --shadow: 0 10px 30px rgba(0, 0, 0, .35);
+    --c1: #8b8dff; --c2: #2dd4bf; --c4: #fb7185;
+    color-scheme: dark;
+  }
+}
+.nf { min-height: 100vh; display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; padding: 32px 16px; }
+.nf-logo { border-radius: 22px; margin-bottom: 18px; box-shadow: 0 8px 24px color-mix(in srgb, var(--c1) 35%, transparent); }
+.nf-code { margin: 0; font-size: clamp(3.5rem, 14vw, 6rem); font-weight: 800; line-height: 1; background: linear-gradient(90deg, var(--c1), var(--c2), var(--c4)); -webkit-background-clip: text; background-clip: text; color: transparent; }
+.nf h1 { margin: 12px 0 8px; font-size: clamp(1.5rem, 5vw, 2rem); }
+.nf-text { max-width: 36ch; color: var(--muted); margin: 0 0 24px; }
