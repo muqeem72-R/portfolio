@@ -1,0 +1,396 @@
+{
+  "version": 1,
+  "note": "Facts the assistant may use. Every fact comes from the resume or this website. Edit here, nowhere else: the page and the server function both read this file.",
+  "chips": ["strengths", "education", "project", "certificates", "ai_fit", "contact"],
+  "facts": [
+    {
+      "id": "about",
+      "kw": ["who is mukeem", "who is he", "about mukeem", "about him", "about you", "introduce", "introduction", "tell me about mukeem", "tell me about yourself", "mukeem khan", "kaun ho", "kaun hai", "parichay", "वह कौन", "कौन हैं", "परिचय", "अपने बारे", "उनके बारे", "وہ کون", "کون ہیں", "تعارف", "اپنے بارے", "ان کے بارے"],
+      "see": "#about",
+      "related": ["strengths", "education", "contact"],
+      "q": {"en": "Who is Mukeem?", "hi": "मुकीम कौन हैं?", "ur": "مکیم کون ہیں؟"},
+      "a": {
+        "en": "Mukeem Khan is based in New Delhi, India. His degree is M.Sc. Mathematics with Computer Science at Jamia Millia Islamia, and he is open to Agentic AI Trainer and Robotic AI Trainer roles. His strongest areas are mathematics first, then coding.",
+        "hi": "मुकीम ख़ान नई दिल्ली, भारत में रहते हैं। उनकी डिग्री जामिया मिल्लिया इस्लामिया से M.Sc. गणित (कंप्यूटर साइंस सहित) है, और वे एजेंटिक AI ट्रेनर और रोबोटिक AI ट्रेनर की भूमिकाओं के लिए उपलब्ध हैं। उनके सबसे मज़बूत क्षेत्र पहले गणित और फिर कोडिंग हैं।",
+        "ur": "مکیم خان نئی دہلی، بھارت میں رہتے ہیں۔ ان کی ڈگری جامعہ ملیہ اسلامیہ سے ایم ایس سی ریاضی (کمپیوٹر سائنس کے ساتھ) ہے، اور وہ ایجنٹک اے آئی ٹرینر اور روبوٹک اے آئی ٹرینر کے کرداروں کے لیے دستیاب ہیں۔ ان کے سب سے مضبوط شعبے پہلے ریاضی اور پھر کوڈنگ ہیں۔"
+      }
+    },
+    {
+      "id": "bot",
+      "kw": ["are you a bot", "are you ai", "are you human", "are you real", "are you mukeem", "what are you", "who made you", "who built you", "chatgpt", "claude", "llama", "kya tum bot", "kya aap bot", "क्या आप बॉट", "क्या आप ai", "क्या आप इंसान", "आपको किसने बनाया", "کیا آپ بوٹ", "کیا آپ انسان", "آپ کو کس نے بنایا", "!who are you", "!आप कौन", "!آپ کون", "is this ai", "is this a bot", "is this an ai", "is this a robot", "bot hai", "क्या यह बॉट", "क्या यह ai", "کیا یہ بوٹ"],
+      "see": "",
+      "related": ["strengths", "contact", "project"],
+      "q": {"en": "Are you a bot?", "hi": "क्या आप बॉट हैं?", "ur": "کیا آپ بوٹ ہیں؟"},
+      "a": {
+        "en": "I'm an AI assistant on Mukeem's portfolio, not Mukeem himself. I answer only from the information on this site, and I can make mistakes. When a question needs it, an AI model on Cloudflare helps me answer. For anything important, please email Mukeem.",
+        "hi": "मैं मुकीम के पोर्टफ़ोलियो पर एक AI सहायक हूँ, मुकीम स्वयं नहीं। मैं सिर्फ़ इस साइट की जानकारी से जवाब देता हूँ और मुझसे ग़लती हो सकती है। ज़रूरत पड़ने पर Cloudflare का एक AI मॉडल जवाब देने में मेरी मदद करता है। किसी ज़रूरी बात के लिए कृपया मुकीम को ईमेल करें।",
+        "ur": "میں مکیم کے پورٹ فولیو پر ایک اے آئی معاون ہوں، خود مکیم نہیں۔ میں صرف اس سائٹ کی معلومات سے جواب دیتا ہوں اور مجھ سے غلطی ہو سکتی ہے۔ ضرورت پڑنے پر Cloudflare کا ایک اے آئی ماڈل جواب دینے میں میری مدد کرتا ہے۔ کسی اہم بات کے لیے براہِ کرم مکیم کو ای میل کریں۔"
+      }
+    },
+    {
+      "id": "strengths",
+      "kw": ["!strongest", "!strength", "!strengths", "best subject", "best at", "good at", "skills", "skill", "expertise", "strong area", "specialty", "speciality", "subjects", "kaunse subject", "majboot", "takat", "खूबी", "!मज़बूत", "!मजबूत", "ताकत", "ताक़त", "कौशल", "विषय", "विशेषज्ञता", "!مضبوط", "مہارت", "مہارتیں", "خوبی", "مضامین", "مضمون"],
+      "see": "#expertise",
+      "related": ["maths", "coding", "ai_fit"],
+      "q": {"en": "What are his strongest subjects?", "hi": "उनके सबसे मज़बूत विषय कौन से हैं?", "ur": "ان کے سب سے مضبوط مضامین کون سے ہیں؟"},
+      "a": {
+        "en": "Mukeem's two strongest areas are mathematics first and coding second. Alongside them he has studied computer science, physics, chemistry, English and Hindi, and Hindi and Urdu are his native languages.",
+        "hi": "मुकीम के दो सबसे मज़बूत क्षेत्र हैं: पहला गणित और दूसरा कोडिंग। इनके साथ उन्होंने कंप्यूटर साइंस, भौतिकी, रसायन, अंग्रेज़ी और हिंदी पढ़ी है, और हिंदी व उर्दू उनकी मातृभाषाएँ हैं।",
+        "ur": "مکیم کے دو سب سے مضبوط شعبے ہیں: پہلا ریاضی اور دوسرا کوڈنگ۔ ان کے ساتھ انہوں نے کمپیوٹر سائنس، طبیعیات، کیمیا، انگریزی اور ہندی پڑھی ہے، اور ہندی اور اردو ان کی مادری زبانیں ہیں۔"
+      }
+    },
+    {
+      "id": "maths",
+      "kw": ["!math", "!maths", "!mathematics", "!calculus", "!algebra", "linear algebra", "analysis", "topology", "differential equations", "geometry", "numerical", "numerical methods", "complex analysis", "manifolds", "wavelets", "!ganit", "!गणित", "कैलकुलस", "बीजगणित", "ज्यामिति", "विश्लेषण", "!ریاضی", "کیلکولس", "الجبرا", "جیومیٹری", "تجزیہ", "عددی"],
+      "see": "#expertise",
+      "related": ["coding", "project", "certificates"],
+      "q": {"en": "What mathematics has he studied?", "hi": "उन्होंने कौन सा गणित पढ़ा है?", "ur": "انہوں نے کون سی ریاضی پڑھی ہے؟"},
+      "a": {
+        "en": "Mathematics is Mukeem's strongest area. He has studied calculus, linear algebra, abstract algebra, discrete mathematics, real and functional analysis, topology, differential equations and geometry, along with numerical methods (root-finding, interpolation, approximation, integration, error estimation, stability analysis), complex analysis, differentiable manifolds and wavelets.",
+        "hi": "गणित मुकीम का सबसे मज़बूत क्षेत्र है। उन्होंने कैलकुलस, रैखिक बीजगणित, अमूर्त बीजगणित, विविक्त गणित, वास्तविक और फलनात्मक विश्लेषण, सांस्थितिकी (टोपोलॉजी), अवकल समीकरण और ज्यामिति पढ़ी है। साथ में संख्यात्मक विधियाँ (मूल-खोज, अंतर्वेशन, सन्निकटन, समाकलन, त्रुटि-अनुमान, स्थिरता-विश्लेषण), सम्मिश्र विश्लेषण, अवकलनीय मैनिफ़ोल्ड और वेवलेट भी।",
+        "ur": "ریاضی مکیم کا سب سے مضبوط شعبہ ہے۔ انہوں نے کیلکولس، لینیئر الجبرا، ایبسٹریکٹ الجبرا، منفصل ریاضی، حقیقی اور تفاعلی تجزیہ، ٹوپولوجی، تفرقی مساوات اور جیومیٹری پڑھی ہے۔ ساتھ میں عددی طریقے (جذر تلاش کرنا، درمیانی قدر نکالنا، تخمینہ، تکمل، خطا کا اندازہ، استحکام کا تجزیہ)، مخلوط تجزیہ، تفرقی مینی فولڈ اور ویولیٹس بھی۔"
+      }
+    },
+    {
+      "id": "coding",
+      "kw": ["!coding", "code", "!programming", "programming language", "c language", "!java", "!javascript", "html", "css", "!python", "pointers", "recursion", "oop", "developer", "software", "!कोडिंग", "!प्रोग्रामिंग", "जावा", "पाइथन", "पायथन", "!کوڈنگ", "!پروگرامنگ", "جاوا", "پائتھون", "پایتھون"],
+      "see": "#expertise",
+      "related": ["certificates", "cs", "project"],
+      "q": {"en": "What coding does he know?", "hi": "उन्हें कौन सी कोडिंग आती है?", "ur": "انہیں کون سی کوڈنگ آتی ہے؟"},
+      "a": {
+        "en": "Coding is Mukeem's second strongest area. He has studied C (control flow, arrays, strings, pointers, recursion, structures, file handling) and Java (classes, inheritance, polymorphism, interfaces, exceptions), plus HTML, CSS and JavaScript coursework. He also holds a Kaggle certificate in Python.",
+        "hi": "कोडिंग मुकीम का दूसरा सबसे मज़बूत क्षेत्र है। उन्होंने C (कंट्रोल फ़्लो, ऐरे, स्ट्रिंग, पॉइंटर, रिकर्शन, स्ट्रक्चर, फ़ाइल हैंडलिंग) और Java (क्लास, इनहेरिटेंस, पॉलीमॉर्फ़िज़्म, इंटरफ़ेस, एक्सेप्शन) पढ़ी है, साथ में HTML, CSS और JavaScript का कोर्सवर्क भी। Kaggle से Python का सर्टिफ़िकेट भी उनके पास है।",
+        "ur": "کوڈنگ مکیم کا دوسرا سب سے مضبوط شعبہ ہے۔ انہوں نے C (کنٹرول فلو، ارے، اسٹرنگ، پوائنٹر، ریکرژن، اسٹرکچر، فائل ہینڈلنگ) اور Java (کلاس، انہیریٹنس، پولی مورفزم، انٹرفیس، ایکسپشن) پڑھی ہے، ساتھ میں HTML، CSS اور JavaScript کا کورس ورک بھی۔ Kaggle سے Python کی سند بھی ان کے پاس ہے۔"
+      }
+    },
+    {
+      "id": "cs",
+      "kw": ["!computer science", "!data structure", "!data structures", "algorithm", "!algorithms", "dsa", "!operating system", "operating systems", "!dbms", "sql", "database", "databases", "complexity", "!कंप्यूटर साइंस", "डेटा स्ट्रक्चर", "एल्गोरिदम", "ऑपरेटिंग सिस्टम", "डेटाबेस", "!کمپیوٹر سائنس", "ڈیٹا اسٹرکچر", "الگورتھم", "آپریٹنگ سسٹم", "ڈیٹابیس"],
+      "see": "#expertise",
+      "related": ["coding", "certificates", "education"],
+      "q": {"en": "What computer science has he studied?", "hi": "उन्होंने कंप्यूटर साइंस में क्या पढ़ा है?", "ur": "انہوں نے کمپیوٹر سائنس میں کیا پڑھا ہے؟"},
+      "a": {
+        "en": "In computer science Mukeem has studied data structures and algorithms (linked lists, stacks, queues, trees, graphs, searching, sorting, time and space complexity), operating systems (scheduling, synchronization, deadlocks, memory and file systems), and DBMS with SQL (relational models, keys, normalization, transactions). He also holds a verified HackerRank SQL (Intermediate) certificate.",
+        "hi": "कंप्यूटर साइंस में मुकीम ने डेटा स्ट्रक्चर और एल्गोरिदम (लिंक्ड लिस्ट, स्टैक, क्यू, ट्री, ग्राफ़, सर्चिंग, सॉर्टिंग, समय और स्थान की जटिलता), ऑपरेटिंग सिस्टम (शेड्यूलिंग, सिंक्रनाइज़ेशन, डेडलॉक, मेमोरी और फ़ाइल सिस्टम) और SQL के साथ DBMS (रिलेशनल मॉडल, की, नॉर्मलाइज़ेशन, ट्रांज़ैक्शन) पढ़ा है। HackerRank का सत्यापित SQL (Intermediate) सर्टिफ़िकेट भी उनके पास है।",
+        "ur": "کمپیوٹر سائنس میں مکیم نے ڈیٹا اسٹرکچر اور الگورتھم (لنکڈ لسٹ، اسٹیک، کیو، ٹری، گراف، سرچنگ، سورٹنگ، وقت اور جگہ کی پیچیدگی)، آپریٹنگ سسٹم (شیڈولنگ، سنکرونائزیشن، ڈیڈ لاک، میموری اور فائل سسٹم) اور SQL کے ساتھ DBMS (ریلیشنل ماڈل، کیز، نارملائزیشن، ٹرانزیکشنز) پڑھا ہے۔ HackerRank کی تصدیق شدہ SQL (Intermediate) سند بھی ان کے پاس ہے۔"
+      }
+    },
+    {
+      "id": "physics",
+      "kw": ["!physics", "mechanics", "!lagrangian", "!hamiltonian", "electromagnetism", "optics", "thermodynamics", "electronics", "forces", "oscillations", "!भौतिकी", "यांत्रिकी", "लैग्रेंजियन", "हैमिल्टोनियन", "!طبیعیات", "میکانیات", "لیگرینجین", "ہیملٹنی"],
+      "see": "#expertise",
+      "related": ["ai_fit", "maths", "project"],
+      "q": {"en": "What physics has he studied?", "hi": "उन्होंने कौन सी भौतिकी पढ़ी है?", "ur": "انہوں نے کون سی طبیعیات پڑھی ہے؟"},
+      "a": {
+        "en": "Mukeem has studied physics: mechanics, motion and forces, oscillations, electromagnetism, optics, thermodynamics, electronics and modern physics, with laboratory work. His M.Sc. mechanics covers Lagrangian and Hamiltonian formulations. This helps him reason about physical actions and cause and effect in robotic AI tasks.",
+        "hi": "मुकीम ने भौतिकी पढ़ी है: यांत्रिकी, गति और बल, दोलन, विद्युत-चुंबकत्व, प्रकाशिकी, ऊष्मागतिकी, इलेक्ट्रॉनिक्स और आधुनिक भौतिकी, प्रयोगशाला कार्य के साथ। उनकी M.Sc. यांत्रिकी में लैग्रेंजियन और हैमिल्टोनियन रूप शामिल हैं। इससे उन्हें रोबोटिक AI कार्यों में भौतिक क्रियाओं और कारण-परिणाम को समझने में मदद मिलती है।",
+        "ur": "مکیم نے طبیعیات پڑھی ہے: میکانیات، حرکت اور قوتیں، ارتعاش، برقی مقناطیسیت، بصریات، حرحرکیات، الیکٹرانکس اور جدید طبیعیات، لیبارٹری کے کام کے ساتھ۔ ان کی ایم ایس سی میکانیات میں لیگرینجین اور ہیملٹنی صورتیں شامل ہیں۔ اس سے انہیں روبوٹک اے آئی کاموں میں طبعی عمل اور سبب و نتیجے کو سمجھنے میں مدد ملتی ہے۔"
+      }
+    },
+    {
+      "id": "chemistry",
+      "kw": ["!chemistry", "organic", "inorganic", "physical chemistry", "spectroscopy", "chemical", "!रसायन", "कैमिस्ट्री", "!کیمیا", "کیمسٹری"],
+      "see": "#expertise",
+      "related": ["physics", "education", "strengths"],
+      "q": {"en": "Has he studied chemistry?", "hi": "क्या उन्होंने रसायन पढ़ा है?", "ur": "کیا انہوں نے کیمیا پڑھی ہے؟"},
+      "a": {
+        "en": "Yes. Mukeem studied inorganic, organic and physical chemistry (atomic structure, bonding, reaction mechanisms, thermodynamics, equilibrium, kinetics, spectroscopy), with practical chemical analysis.",
+        "hi": "हाँ। मुकीम ने अकार्बनिक, कार्बनिक और भौतिक रसायन (परमाणु संरचना, बंधन, अभिक्रिया तंत्र, ऊष्मागतिकी, साम्य, बलगतिकी, स्पेक्ट्रोस्कोपी) पढ़ा है, व्यावहारिक रासायनिक विश्लेषण के साथ।",
+        "ur": "جی ہاں۔ مکیم نے غیر نامیاتی، نامیاتی اور طبعی کیمیا (جوہری ساخت، بندھن، تعامل کے طریقے، حرحرکیات، توازن، حرکیات، اسپیکٹرو اسکوپی) پڑھی ہے، عملی کیمیائی تجزیے کے ساتھ۔"
+      }
+    },
+    {
+      "id": "languages",
+      "kw": ["language", "!languages", "speak", "!hindi", "!urdu", "english", "multilingual", "native language", "bhasha", "!भाषा", "!भाषाएँ", "!भाषाएं", "हिंदी", "हिन्दी", "उर्दू", "अंग्रेज़ी", "अंग्रेजी", "!زبان", "!زبانیں", "ہندی", "اردو", "انگریزی"],
+      "see": "#about",
+      "related": ["ai_fit", "education", "contact"],
+      "q": {"en": "Which languages does he speak?", "hi": "वे कौन सी भाषाएँ बोलते हैं?", "ur": "وہ کون سی زبانیں بولتے ہیں؟"},
+      "a": {
+        "en": "Mukeem has professional proficiency in English, and Hindi and Urdu are his native languages. This lets him review written responses for clarity, meaning and consistency in all three.",
+        "hi": "मुकीम की अंग्रेज़ी में पेशेवर दक्षता है, और हिंदी व उर्दू उनकी मातृभाषाएँ हैं। इससे वे तीनों भाषाओं में लिखे जवाबों की स्पष्टता, अर्थ और संगति की जाँच कर सकते हैं।",
+        "ur": "مکیم کی انگریزی میں پیشہ ورانہ مہارت ہے، اور ہندی اور اردو ان کی مادری زبانیں ہیں۔ اس سے وہ تینوں زبانوں میں لکھے جوابات کی وضاحت، مفہوم اور ہم آہنگی کی جانچ کر سکتے ہیں۔"
+      }
+    },
+    {
+      "id": "education",
+      "kw": ["!education", "!degree", "!qualification", "!qualifications", "!university", "college", "school", "studied", "where did he study", "m.sc", "msc", "b.sc", "bsc", "bachelor", "master", "masters", "10th", "12th", "senior secondary", "secondary", "jamia", "jmi", "!marks", "!grades", "!cgpa", "!percentage", "!शिक्षा", "!डिग्री", "योग्यता", "विश्वविद्यालय", "कॉलेज", "स्कूल", "जामिया", "!पढ़ाई", "पढ़ा", "!تعلیم", "!ڈگری", "اہلیت", "یونیورسٹی", "کالج", "اسکول", "جامعہ", "پڑھائی", "padhai", "shiksha", "kahan padha", "पढ़ाई कहाँ"],
+      "see": "#education",
+      "related": ["project", "certificates", "strengths"],
+      "q": {"en": "Where did he study?", "hi": "उन्होंने कहाँ पढ़ाई की?", "ur": "انہوں نے کہاں تعلیم حاصل کی؟"},
+      "a": {
+        "en": "M.Sc. Mathematics with Computer Science at Jamia Millia Islamia, New Delhi; Bachelor of Science in Mathematics, Physics and Chemistry at Maharaja Surajmal Brij Vishvavidyalaya, Bharatpur, Rajasthan; Senior Secondary (Science) at Sanatan Dharm Shiksha Sadan Senior Secondary School, Dholpur; and Secondary at Ikra Secondary School, Dholpur. Marks and grades are not listed on this site.",
+        "hi": "M.Sc. गणित (कंप्यूटर साइंस सहित), जामिया मिल्लिया इस्लामिया, नई दिल्ली; बी.एस.सी. (गणित, भौतिकी, रसायन) महाराजा सूरजमल ब्रिज विश्वविद्यालय, भरतपुर, राजस्थान से; सीनियर सेकेंडरी (विज्ञान) सनातन धर्म शिक्षा सदन सीनियर सेकेंडरी स्कूल, धौलपुर से; और सेकेंडरी इकरा सेकेंडरी स्कूल, धौलपुर से। अंक और ग्रेड इस साइट पर नहीं दिए गए हैं।",
+        "ur": "ایم ایس سی ریاضی (کمپیوٹر سائنس کے ساتھ)، جامعہ ملیہ اسلامیہ، نئی دہلی؛ بی ایس سی (ریاضی، طبیعیات، کیمیا) مہاراجہ سورج مل برج وشوودیالیہ، بھرت پور، راجستھان سے؛ سینئر سیکنڈری (سائنس) سناتن دھرم شکشا سدن سینئر سیکنڈری اسکول، دھول پور سے؛ اور سیکنڈری اکرا سیکنڈری اسکول، دھول پور سے۔ نمبر اور گریڈ اس سائٹ پر درج نہیں ہیں۔"
+      }
+    },
+    {
+      "id": "project",
+      "kw": ["!project", "!projects", "research", "emotion", "multimodal", "papers", "literature review", "minor project", "thesis", "!प्रोजेक्ट", "परियोजना", "शोध", "रिसर्च", "इमोशन", "!پروجیکٹ", "تحقیق", "ریسرچ"],
+      "see": "#projects",
+      "related": ["maths", "ai_fit", "profiles"],
+      "q": {"en": "Tell me about his project", "hi": "उनके प्रोजेक्ट के बारे में बताइए", "ur": "ان کے پروجیکٹ کے بارے میں بتائیے"},
+      "a": {
+        "en": "His M.Sc. minor project at Jamia Millia Islamia is a literature review of 24 research papers on multimodal emotion recognition and reasoning across audio, video and text. It compares feature extraction, fusion strategies, benchmark datasets and model architectures, and looks at explainability, missing or noisy modalities, temporal information leakage and cultural bias. It is on his GitHub.",
+        "hi": "जामिया मिल्लिया इस्लामिया में उनका M.Sc. माइनर प्रोजेक्ट ऑडियो, वीडियो और टेक्स्ट में मल्टीमोडल इमोशन रिकग्निशन और रीज़निंग पर 24 शोध-पत्रों की साहित्य-समीक्षा है। इसमें फ़ीचर एक्सट्रैक्शन, फ़्यूज़न रणनीतियों, बेंचमार्क डेटासेट और मॉडल आर्किटेक्चर की तुलना की गई है, और व्याख्येयता, छूटे या शोरगुल वाले मोडैलिटी, समय-संबंधी सूचना रिसाव और सांस्कृतिक पूर्वाग्रह पर भी विचार किया गया है। यह उनके GitHub पर है।",
+        "ur": "جامعہ ملیہ اسلامیہ میں ان کا ایم ایس سی مائنر پروجیکٹ آڈیو، ویڈیو اور ٹیکسٹ میں ملٹی موڈل ایموشن ریکگنیشن اور ریزننگ پر 24 تحقیقی مقالوں کا ادبی جائزہ ہے۔ اس میں فیچر ایکسٹریکشن، فیوژن حکمتِ عملیوں، بینچ مارک ڈیٹا سیٹس اور ماڈل آرکیٹیکچر کا موازنہ کیا گیا ہے، اور وضاحت پذیری، غائب یا شور والے موڈیلیٹیز، وقت سے متعلق معلومات کے اخراج اور ثقافتی تعصب پر بھی غور کیا گیا ہے۔ یہ ان کے GitHub پر ہے۔"
+      }
+    },
+    {
+      "id": "website",
+      "kw": ["!website", "this site", "this website", "!portfolio", "lab", "interactive", "tools", "how was this built", "tech stack", "made with", "!वेबसाइट", "साइट", "!पोर्टफ़ोलियो", "पोर्टफोलियो", "लैब", "!ویب سائٹ", "سائٹ", "پورٹ فولیو", "لیب"],
+      "see": "#lab",
+      "related": ["ai_fit", "project", "contact"],
+      "q": {"en": "How was this website built?", "hi": "यह वेबसाइट कैसे बनी है?", "ur": "یہ ویب سائٹ کیسے بنی ہے؟"},
+      "a": {
+        "en": "This portfolio is built with plain HTML, CSS and JavaScript and published on Cloudflare Pages. It is available in English, Hindi and Urdu. It has reasoning checks that change on every visit and an interactive lab: a response-comparison exercise, Newton's method and trapezoidal-rule visualisations, and a robot task-planning exercise.",
+        "hi": "यह पोर्टफ़ोलियो सादे HTML, CSS और JavaScript से बना है और Cloudflare Pages पर प्रकाशित है। यह अंग्रेज़ी, हिंदी और उर्दू में उपलब्ध है। इसमें हर बार बदलने वाले तर्क-अभ्यास हैं और एक इंटरएक्टिव लैब है: जवाबों की तुलना का अभ्यास, न्यूटन विधि और समलंब नियम के दृश्य, और रोबोट के कामों की योजना का अभ्यास।",
+        "ur": "یہ پورٹ فولیو سادہ HTML، CSS اور JavaScript سے بنا ہے اور Cloudflare Pages پر شائع ہے۔ یہ انگریزی، ہندی اور اردو میں دستیاب ہے۔ اس میں ہر بار بدلنے والی استدلال کی مشقیں ہیں اور ایک انٹرایکٹو لیب ہے: جوابات کے موازنے کی مشق، نیوٹن کے طریقے اور ٹریپزائیڈل اصول کے مناظر، اور روبوٹ کے کاموں کی منصوبہ بندی کی مشق۔"
+      }
+    },
+    {
+      "id": "certificates",
+      "kw": ["!certificate", "!certificates", "!certification", "certifications", "course", "courses", "!kaggle", "!hackerrank", "badge", "badges", "online course", "!सर्टिफ़िकेट", "!सर्टिफिकेट", "!प्रमाणपत्र", "कोर्स", "कैगल", "हैकररैंक", "!سند", "!اسناد", "!سرٹیفکیٹ", "کورس", "کورسز", "کیگل", "ہیکر رینک", "machine learning", "मशीन लर्निंग", "मशीन लर्निग", "مشین لرننگ"],
+      "see": "#learning",
+      "related": ["coding", "direction", "profiles"],
+      "q": {"en": "Which certificates does he have?", "hi": "उनके पास कौन से सर्टिफ़िकेट हैं?", "ur": "ان کے پاس کون سی اسناد ہیں؟"},
+      "a": {
+        "en": "Mukeem has three online certificates: Kaggle Learn courses in Python and in Intro to Machine Learning, and a verified HackerRank SQL (Intermediate) certificate. The links are in the Courses section of this site.",
+        "hi": "मुकीम के पास तीन ऑनलाइन सर्टिफ़िकेट हैं: Kaggle Learn के Python और Intro to Machine Learning कोर्स, और HackerRank का सत्यापित SQL (Intermediate) सर्टिफ़िकेट। इनके लिंक इस साइट के Courses सेक्शन में हैं।",
+        "ur": "مکیم کے پاس تین آن لائن اسناد ہیں: Kaggle Learn کے Python اور Intro to Machine Learning کورس، اور HackerRank کی تصدیق شدہ SQL (Intermediate) سند۔ ان کے لنک اس سائٹ کے Courses سیکشن میں ہیں۔"
+      }
+    },
+    {
+      "id": "profiles",
+      "kw": ["!github", "!linkedin", "!leetcode", "twitter", "social", "profiles", "profile", "links", "find you", "handle", "!गिटहब", "लिंक्डइन", "प्रोफ़ाइल", "प्रोफाइल", "सोशल", "!گٹ ہب", "!لنکڈ ان", "پروفائل", "پروفائلز"],
+      "see": "#profiles",
+      "related": ["certificates", "resume", "contact"],
+      "q": {"en": "Where can I find his profiles?", "hi": "उनकी प्रोफ़ाइल कहाँ मिलेंगी?", "ur": "ان کی پروفائلز کہاں ملیں گی؟"},
+      "a": {
+        "en": "Mukeem is on GitHub, LinkedIn, Kaggle, HackerRank, LeetCode and X. All the links are in the 'Find me online' section of this site.",
+        "hi": "मुकीम GitHub, LinkedIn, Kaggle, HackerRank, LeetCode और X पर हैं। सभी लिंक इस साइट के 'Find me online' सेक्शन में हैं।",
+        "ur": "مکیم GitHub، LinkedIn، Kaggle، HackerRank، LeetCode اور X پر ہیں۔ تمام لنک اس سائٹ کے 'Find me online' سیکشن میں ہیں۔"
+      }
+    },
+    {
+      "id": "contact",
+      "kw": ["!contact", "!email", "!e-mail", "mail", "reach", "reach him", "get in touch", "message", "!whatsapp", "!phone", "call", "number", "mobile", "talk to", "sampark", "!संपर्क", "!ईमेल", "मेल", "!व्हाट्सऐप", "व्हाट्सएप", "!फ़ोन", "फोन", "नंबर", "!رابطہ", "!ای میل", "!واٹس ایپ", "!فون", "نمبر", "email address", "email id", "contact details", "how to contact", "how can i contact", "phone number", "whatsapp number", "contact number"],
+      "see": "#contact",
+      "related": ["resume", "profiles", "ai_fit"],
+      "q": {"en": "How can I contact him?", "hi": "उनसे संपर्क कैसे करें?", "ur": "ان سے رابطہ کیسے کریں؟"},
+      "a": {
+        "en": "The best way to reach Mukeem is email: mukeemuddeen9694@gmail.com. WhatsApp also works through the WhatsApp button. A phone number is not shown on this site. He is based in New Delhi, India (IST, UTC+5:30).",
+        "hi": "मुकीम तक पहुँचने का सबसे अच्छा तरीक़ा ईमेल है: mukeemuddeen9694@gmail.com। व्हाट्सऐप बटन से व्हाट्सऐप पर भी संपर्क हो सकता है। फ़ोन नंबर इस साइट पर नहीं दिया गया है। वे नई दिल्ली, भारत में रहते हैं (IST, UTC+5:30)।",
+        "ur": "مکیم تک پہنچنے کا بہترین طریقہ ای میل ہے: mukeemuddeen9694@gmail.com۔ واٹس ایپ بٹن کے ذریعے واٹس ایپ پر بھی رابطہ ہو سکتا ہے۔ فون نمبر اس سائٹ پر نہیں دیا گیا۔ وہ نئی دہلی، بھارت میں رہتے ہیں (IST, UTC+5:30)۔"
+      }
+    },
+    {
+      "id": "resume",
+      "kw": ["!resume", "!cv", "curriculum vitae", "download", "biodata", "!रिज़्यूमे", "रिज्यूमे", "सीवी", "बायोडेटा", "!ریزیومے", "سی وی"],
+      "see": "#contact",
+      "related": ["contact", "education", "certificates"],
+      "q": {"en": "Can I download his resume?", "hi": "क्या मैं उनका रिज़्यूमे डाउनलोड कर सकता हूँ?", "ur": "کیا میں ان کا ریزیومے ڈاؤن لوڈ کر سکتا ہوں؟"},
+      "a": {
+        "en": "Yes. Use the 'Download resume' button at the top of this page or in the Contact section.",
+        "hi": "हाँ। इस पेज के ऊपर या Contact सेक्शन में 'Download resume' बटन का इस्तेमाल करें।",
+        "ur": "جی ہاں۔ اس صفحے کے اوپر یا Contact سیکشن میں 'Download resume' بٹن استعمال کریں۔"
+      }
+    },
+    {
+      "id": "ai_fit",
+      "kw": ["!ai trainer", "!agentic", "!robotic", "!robotics", "why hire", "why you", "why him", "suitable", "how do his skills", "ai training", "evaluation", "evaluate", "rating", "rubric", "annotation", "llm", "machine learning", "!एजेंटिक", "!रोबोटिक", "ट्रेनर", "ट्रेनिंग", "!ایجنٹک", "!روبوٹک", "ٹرینر", "ٹریننگ", "should we hire", "should i hire", "why should we", "why should i", "मशीन लर्निंग", "मशीन लर्निग", "مشین لرننگ"],
+      "see": "#lab",
+      "related": ["maths", "coding", "physics"],
+      "q": {"en": "How do his skills fit AI training?", "hi": "उनके कौशल AI ट्रेनिंग के लिए कैसे उपयोगी हैं?", "ur": "ان کی مہارتیں اے آئی ٹریننگ کے لیے کیسے مفید ہیں؟"},
+      "a": {
+        "en": "For AI training work, Mukeem's mathematics supports checking multistep solutions and numerical accuracy. His C and Java background supports tracing code and its input-output behaviour. His physics helps with motion, forces and cause and effect in robotic tasks, and his English, Hindi and Urdu support reviewing written responses in three languages. The Interactive lab on this site shows these skills.",
+        "hi": "AI ट्रेनिंग के काम के लिए मुकीम का गणित बहु-चरणीय हलों और संख्यात्मक शुद्धता की जाँच में मदद करता है। उनका C और Java का अनुभव कोड और उसके इनपुट-आउटपुट व्यवहार को समझने में काम आता है। उनकी भौतिकी रोबोटिक कामों में गति, बल और कारण-परिणाम समझने में मदद करती है, और उनकी अंग्रेज़ी, हिंदी और उर्दू तीन भाषाओं में लिखे जवाबों की समीक्षा में काम आती हैं। इस साइट की इंटरएक्टिव लैब इन कौशलों को दिखाती है।",
+        "ur": "اے آئی ٹریننگ کے کام کے لیے مکیم کی ریاضی کئی مراحل والے حل اور عددی درستگی کی جانچ میں مدد کرتی ہے۔ ان کا C اور Java کا پس منظر کوڈ اور اس کے ان پٹ آؤٹ پٹ رویے کو سمجھنے میں کام آتا ہے۔ ان کی طبیعیات روبوٹک کاموں میں حرکت، قوت اور سبب و نتیجے کو سمجھنے میں مدد دیتی ہے، اور ان کی انگریزی، ہندی اور اردو تین زبانوں میں لکھے جوابات کی جانچ میں کام آتی ہیں۔ اس سائٹ کی انٹرایکٹو لیب ان مہارتوں کو دکھاتی ہے۔"
+      }
+    },
+    {
+      "id": "direction",
+      "kw": ["!future", "!plans", "!goal", "!goals", "aim", "aspiration", "next", "heading", "interests", "interested in", "ambition", "what does he want", "आगे", "!भविष्य", "!लक्ष्य", "!योजना", "रुचि", "!مستقبل", "!ہدف", "!منصوبہ", "دلچسپی", "machine learning", "मशीन लर्निंग", "मशीन लर्निग", "مشین لرننگ"],
+      "see": "#about",
+      "related": ["certificates", "project", "contact"],
+      "q": {"en": "What are his future plans?", "hi": "उनकी आगे की योजना क्या है?", "ur": "ان کا آگے کا منصوبہ کیا ہے؟"},
+      "a": {
+        "en": "Mukeem wants to do more research to grow in AI and robotic science, and to work on machine learning and artificial intelligence projects. His Kaggle certificates in Python and Intro to Machine Learning are the starting point.",
+        "hi": "मुकीम AI और रोबोटिक विज्ञान में आगे बढ़ने के लिए और रिसर्च करना चाहते हैं, और मशीन लर्निंग व आर्टिफ़िशियल इंटेलिजेंस के प्रोजेक्ट पर काम करना चाहते हैं। Kaggle के Python और Intro to Machine Learning सर्टिफ़िकेट उनकी शुरुआत हैं।",
+        "ur": "مکیم اے آئی اور روبوٹک سائنس میں آگے بڑھنے کے لیے مزید تحقیق کرنا چاہتے ہیں، اور مشین لرننگ اور مصنوعی ذہانت کے پروجیکٹس پر کام کرنا چاہتے ہیں۔ Kaggle کی Python اور Intro to Machine Learning اسناد ان کی ابتدا ہیں۔"
+      }
+    },
+    {
+      "id": "not_covered",
+      "kw": ["!experience", "!work experience", "job", "jobs", "employer", "company", "internship", "!salary", "rate", "rates", "fee", "fees", "charge", "price", "cost", "available", "!availability", "notice period", "hire", "hiring", "!references", "reference", "!freelance", "!outlier", "!handshake", "!अनुभव", "नौकरी", "!वेतन", "फ़ीस", "फीस", "!उपलब्धता", "!تجربہ", "ملازمت", "!تنخواہ", "فیس", "!دستیابی"],
+      "see": "#contact",
+      "related": ["contact", "ai_fit", "project"],
+      "q": {"en": "Does he have work experience?", "hi": "क्या उनके पास काम का अनुभव है?", "ur": "کیا ان کے پاس کام کا تجربہ ہے؟"},
+      "a": {
+        "en": "This site does not list work experience, rates, availability or references, so I can't answer that. Please email Mukeem (WhatsApp also works). He is open to Agentic AI Trainer and Robotic AI Trainer roles, and the site shows his studies, skills, projects and certificates.",
+        "hi": "इस साइट पर काम का अनुभव, दरें, उपलब्धता या संदर्भ नहीं दिए गए हैं, इसलिए मैं इसका जवाब नहीं दे सकता। कृपया मुकीम को ईमेल करें (व्हाट्सऐप भी चलेगा)। वे एजेंटिक AI ट्रेनर और रोबोटिक AI ट्रेनर की भूमिकाओं के लिए उपलब्ध हैं, और साइट उनकी पढ़ाई, कौशल, प्रोजेक्ट और सर्टिफ़िकेट दिखाती है।",
+        "ur": "اس سائٹ پر کام کا تجربہ، نرخ، دستیابی یا حوالے درج نہیں ہیں، اس لیے میں اس کا جواب نہیں دے سکتا۔ براہِ کرم مکیم کو ای میل کریں (واٹس ایپ بھی چلے گا)۔ وہ ایجنٹک اے آئی ٹرینر اور روبوٹک اے آئی ٹرینر کے کرداروں کے لیے دستیاب ہیں، اور سائٹ ان کی تعلیم، مہارتیں، پروجیکٹس اور اسناد دکھاتی ہے۔"
+      }
+    }
+  ],
+  "smalltalk": {
+    "kw": ["hi", "hello", "hey", "hii", "namaste", "namaskar", "salam", "assalam", "thanks", "thank you", "thx", "shukriya", "dhanyavad", "नमस्ते", "नमस्कार", "धन्यवाद", "शुक्रिया", "हैलो", "السلام", "سلام", "شکریہ", "ہیلو"]
+  },
+  "ui": {
+    "en": {
+      "title": "Ask about Mukeem",
+      "badge": "AI assistant",
+      "open": "Ask a question",
+      "close": "Close",
+      "send": "Send",
+      "placeholder": "Type your question…",
+      "chips": "Suggested questions",
+      "email": "Email Mukeem",
+      "whatsapp": "WhatsApp",
+      "contactLabel": "Contact Mukeem",
+      "thinking": "Thinking…",
+      "aiTag": "AI-generated, may contain mistakes",
+      "note": "Answers come from this website's information and may contain mistakes. Please don't share personal details. Questions that need AI are processed by an AI service on Cloudflare. Your name, visit time and any rating or message you send are saved for Mukeem to read; your questions are not.",
+      "greeting": "Hello! I can answer questions about Mukeem's studies, skills, projects and certificates. Pick a question below or type your own.",
+      "thanks": "You're welcome! Ask anything else about Mukeem, or email him directly.",
+      "notCovered": "I don't have that information on this site. The quickest way to ask Mukeem is by email; WhatsApp also works.",
+      "aiDown": "The AI part isn't available right now. Here is the closest answer I have:",
+      "rateLimited": "Too many questions in a short time. Please wait a minute, or use the suggested questions, or email Mukeem.",
+      "tooLong": "Please keep your question under 300 characters.",
+      "offline": "I couldn't reach the assistant. Please check your connection, or email Mukeem.",
+      "you": "You",
+      "bot": "Assistant",
+      "askName": "Hi! Before we start, what's your name? You can skip this.",
+      "nameHello": "Nice to meet you, {name}! I can answer questions about Mukeem's studies, skills, projects and certificates. Pick a question below or type your own.",
+      "namePlaceholder": "Your name",
+      "skip": "Skip",
+      "sure": "Sure, {name}!",
+      "nameNote": "Your name is only used to greet you. If a question needs AI, it is sent along with it.",
+      "followUp": "You might also ask:",
+      "seeOnPage": "See on the page:",
+      "emailThis": "Email this question to Mukeem",
+      "startOver": "Start over",
+      "fbTitle": "How was your experience?",
+      "fbSub": "Pick a face to finish. Writing a message is optional.",
+      "r1": "Very bad",
+      "r2": "Bad",
+      "r3": "Okay",
+      "r4": "Good",
+      "r5": "Great",
+      "fbLabel": "Anything to add? (optional)",
+      "fbPlaceholder": "Your message (optional)",
+      "fbSubmit": "Submit",
+      "fbThanks": "Thank you for your feedback!",
+      "fbThanksName": "Thank you, {name}!",
+      "fbNeeded": "Please pick one of the faces to finish.",
+      "fbNote": "Your rating and message are saved so Mukeem can read them.",
+      "fbFail": "I couldn't save your feedback. You can email it instead:",
+      "fbEmail": "Email my feedback",
+      "fbClose": "Close",
+      "fbSaving": "Saving…"
+    },
+    "hi": {
+      "title": "मुकीम के बारे में पूछें",
+      "badge": "AI सहायक",
+      "open": "सवाल पूछें",
+      "close": "बंद करें",
+      "send": "भेजें",
+      "placeholder": "अपना सवाल लिखें…",
+      "chips": "सुझाए गए सवाल",
+      "email": "मुकीम को ईमेल करें",
+      "whatsapp": "व्हाट्सऐप",
+      "contactLabel": "मुकीम से संपर्क",
+      "thinking": "सोच रहा हूँ…",
+      "aiTag": "AI द्वारा बनाया गया, ग़लतियाँ हो सकती हैं",
+      "note": "जवाब इस वेबसाइट की जानकारी से आते हैं और उनमें ग़लतियाँ हो सकती हैं। कृपया निजी जानकारी न लिखें। जिन सवालों के लिए AI चाहिए, वे Cloudflare की AI सेवा से प्रोसेस होते हैं। आपका नाम, आने का समय और जो रेटिंग या संदेश आप भेजें, वे मुकीम के पढ़ने के लिए सहेजे जाते हैं; आपके सवाल नहीं।",
+      "greeting": "नमस्ते! मैं मुकीम की पढ़ाई, कौशल, प्रोजेक्ट और सर्टिफ़िकेट के बारे में सवालों के जवाब दे सकता हूँ। नीचे से कोई सवाल चुनें या अपना सवाल लिखें।",
+      "thanks": "आपका स्वागत है! मुकीम के बारे में कुछ और पूछें, या उन्हें सीधे ईमेल करें।",
+      "notCovered": "यह जानकारी मेरे पास इस साइट पर नहीं है। मुकीम से पूछने का सबसे तेज़ तरीक़ा ईमेल है; व्हाट्सऐप भी चलेगा।",
+      "aiDown": "AI वाला हिस्सा अभी उपलब्ध नहीं है। मेरे पास सबसे नज़दीकी जवाब यह है:",
+      "rateLimited": "थोड़े समय में बहुत सारे सवाल हो गए। कृपया एक मिनट रुकें, या सुझाए गए सवाल इस्तेमाल करें, या मुकीम को ईमेल करें।",
+      "tooLong": "कृपया अपना सवाल 300 अक्षरों से छोटा रखें।",
+      "offline": "मैं सहायक तक नहीं पहुँच सका। कृपया अपना कनेक्शन जाँचें, या मुकीम को ईमेल करें।",
+      "you": "आप",
+      "bot": "सहायक",
+      "askName": "नमस्ते! शुरू करने से पहले, आपका नाम क्या है? आप इसे छोड़ भी सकते हैं।",
+      "nameHello": "आपसे मिलकर अच्छा लगा, {name}! मैं मुकीम की पढ़ाई, कौशल, प्रोजेक्ट और सर्टिफ़िकेट के बारे में सवालों के जवाब दे सकता हूँ। नीचे से कोई सवाल चुनें या अपना सवाल लिखें।",
+      "namePlaceholder": "आपका नाम",
+      "skip": "छोड़ें",
+      "sure": "ज़रूर, {name}!",
+      "nameNote": "आपका नाम सिर्फ़ आपका अभिवादन करने में इस्तेमाल होता है। अगर किसी सवाल के लिए AI की ज़रूरत हो, तो वह सवाल के साथ भेजा जाता है।",
+      "followUp": "आप यह भी पूछ सकते हैं:",
+      "seeOnPage": "पेज पर देखें:",
+      "emailThis": "यह सवाल मुकीम को ईमेल करें",
+      "startOver": "फिर से शुरू करें",
+      "fbTitle": "आपका अनुभव कैसा रहा?",
+      "fbSub": "ख़त्म करने के लिए एक चेहरा चुनें। संदेश लिखना वैकल्पिक है।",
+      "r1": "बहुत ख़राब",
+      "r2": "ख़राब",
+      "r3": "ठीक-ठाक",
+      "r4": "अच्छा",
+      "r5": "बहुत बढ़िया",
+      "fbLabel": "कुछ जोड़ना चाहते हैं? (वैकल्पिक)",
+      "fbPlaceholder": "आपका संदेश (वैकल्पिक)",
+      "fbSubmit": "भेजें",
+      "fbThanks": "आपकी प्रतिक्रिया के लिए धन्यवाद!",
+      "fbThanksName": "धन्यवाद, {name}!",
+      "fbNeeded": "ख़त्म करने के लिए कृपया एक चेहरा चुनें।",
+      "fbNote": "आपकी रेटिंग और संदेश सहेजे जाते हैं ताकि मुकीम उन्हें पढ़ सकें।",
+      "fbFail": "मैं आपकी प्रतिक्रिया सहेज नहीं सका। आप उसे ईमेल कर सकते हैं:",
+      "fbEmail": "मेरी प्रतिक्रिया ईमेल करें",
+      "fbClose": "बंद करें",
+      "fbSaving": "सहेज रहा हूँ…"
+    },
+    "ur": {
+      "title": "مکیم کے بارے میں پوچھیں",
+      "badge": "اے آئی معاون",
+      "open": "سوال پوچھیں",
+      "close": "بند کریں",
+      "send": "بھیجیں",
+      "placeholder": "اپنا سوال لکھیں…",
+      "chips": "تجویز کردہ سوال",
+      "email": "مکیم کو ای میل کریں",
+      "whatsapp": "واٹس ایپ",
+      "contactLabel": "مکیم سے رابطہ",
+      "thinking": "سوچ رہا ہوں…",
+      "aiTag": "اے آئی کا بنایا ہوا، غلطیاں ہو سکتی ہیں",
+      "note": "جوابات اس ویب سائٹ کی معلومات سے آتے ہیں اور ان میں غلطیاں ہو سکتی ہیں۔ براہِ کرم ذاتی معلومات نہ لکھیں۔ جن سوالوں کے لیے اے آئی چاہیے وہ Cloudflare کی اے آئی سروس سے پروسیس ہوتے ہیں۔ آپ کا نام، آنے کا وقت اور جو ریٹنگ یا پیغام آپ بھیجیں وہ مکیم کے پڑھنے کے لیے محفوظ کیے جاتے ہیں؛ آپ کے سوال نہیں۔",
+      "greeting": "السلام علیکم! میں مکیم کی تعلیم، مہارتوں، پروجیکٹس اور اسناد کے بارے میں سوالوں کے جواب دے سکتا ہوں۔ نیچے سے کوئی سوال چنیں یا اپنا سوال لکھیں۔",
+      "thanks": "خوش آمدید! مکیم کے بارے میں کچھ اور پوچھیں، یا انہیں براہِ راست ای میل کریں۔",
+      "notCovered": "یہ معلومات میرے پاس اس سائٹ پر نہیں ہیں۔ مکیم سے پوچھنے کا سب سے تیز طریقہ ای میل ہے؛ واٹس ایپ بھی چلے گا۔",
+      "aiDown": "اے آئی والا حصہ ابھی دستیاب نہیں ہے۔ میرے پاس سب سے قریبی جواب یہ ہے:",
+      "rateLimited": "تھوڑے وقت میں بہت سے سوال ہو گئے۔ براہِ کرم ایک منٹ رکیں، یا تجویز کردہ سوال استعمال کریں، یا مکیم کو ای میل کریں۔",
+      "tooLong": "براہِ کرم اپنا سوال 300 حروف سے کم رکھیں۔",
+      "offline": "میں معاون تک نہیں پہنچ سکا۔ براہِ کرم اپنا کنکشن جانچیں، یا مکیم کو ای میل کریں۔",
+      "you": "آپ",
+      "bot": "معاون",
+      "askName": "السلام علیکم! شروع کرنے سے پہلے، آپ کا نام کیا ہے؟ آپ اسے چھوڑ بھی سکتے ہیں۔",
+      "nameHello": "آپ سے مل کر اچھا لگا، {name}! میں مکیم کی تعلیم، مہارتوں، پروجیکٹس اور اسناد کے بارے میں سوالوں کے جواب دے سکتا ہوں۔ نیچے سے کوئی سوال چنیں یا اپنا سوال لکھیں۔",
+      "namePlaceholder": "آپ کا نام",
+      "skip": "چھوڑیں",
+      "sure": "جی ضرور، {name}!",
+      "nameNote": "آپ کا نام صرف آپ کو سلام کرنے میں استعمال ہوتا ہے۔ اگر کسی سوال کے لیے اے آئی کی ضرورت ہو تو وہ سوال کے ساتھ بھیجا جاتا ہے۔",
+      "followUp": "آپ یہ بھی پوچھ سکتے ہیں:",
+      "seeOnPage": "صفحے پر دیکھیں:",
+      "emailThis": "یہ سوال مکیم کو ای میل کریں",
+      "startOver": "دوبارہ شروع کریں",
+      "fbTitle": "آپ کا تجربہ کیسا رہا؟",
+      "fbSub": "ختم کرنے کے لیے ایک چہرہ چنیں۔ پیغام لکھنا اختیاری ہے۔",
+      "r1": "بہت خراب",
+      "r2": "خراب",
+      "r3": "ٹھیک ٹھاک",
+      "r4": "اچھا",
+      "r5": "بہت عمدہ",
+      "fbLabel": "کچھ شامل کرنا چاہتے ہیں؟ (اختیاری)",
+      "fbPlaceholder": "آپ کا پیغام (اختیاری)",
+      "fbSubmit": "بھیجیں",
+      "fbThanks": "آپ کی رائے کا شکریہ!",
+      "fbThanksName": "شکریہ، {name}!",
+      "fbNeeded": "ختم کرنے کے لیے براہِ کرم ایک چہرہ چنیں۔",
+      "fbNote": "آپ کی ریٹنگ اور پیغام محفوظ کیے جاتے ہیں تاکہ مکیم انہیں پڑھ سکیں۔",
+      "fbFail": "میں آپ کی رائے محفوظ نہیں کر سکا۔ آپ اسے ای میل کر سکتے ہیں:",
+      "fbEmail": "میری رائے ای میل کریں",
+      "fbClose": "بند کریں",
+      "fbSaving": "محفوظ کر رہا ہوں…"
+    }
+  }
+}
