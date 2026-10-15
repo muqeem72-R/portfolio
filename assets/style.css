@@ -303,14 +303,6 @@ p { margin: 0 0 1em; }
 .learn-link { display: inline-flex; align-items: center; min-height: 44px; font-weight: 600; color: var(--k); text-decoration: none; }
 .learn-link:hover { text-decoration: underline; }
 
-/* About: five cards. On wide screens the last two sit centred under the first three. */
-@media (min-width: 921px) {
-  .grid.three.pillars { grid-template-columns: repeat(6, minmax(0, 1fr)); }
-  .grid.three.pillars > * { grid-column: span 2; }
-  .grid.three.pillars > :nth-child(4) { grid-column: 2 / span 2; }
-  .grid.three.pillars > :nth-child(5) { grid-column: 4 / span 2; }
-}
-
 /* ---------- Responsive ---------- */
 @media (min-width: 821px) and (max-width: 1040px) { .nav a { padding: 8px 8px; font-size: .9rem; } .brand span { display: none; } }
 @media (max-width: 920px) {
