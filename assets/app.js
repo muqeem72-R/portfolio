@@ -60,7 +60,7 @@
       'lab.title': 'इंटरएक्टिव लैब',
       'lab.lead': 'तीन छोटे टूल जो दिखाते हैं कि मैं गणित कैसे जाँचता हूँ, संख्यात्मक विधियाँ कैसे चलाता हूँ और रोबोट के कामों पर कैसे तर्क करता हूँ।',
       'projects.title': 'प्रोजेक्ट',
-      'projects.lead': 'अकादमिक कार्य; पूरा होते ही और काम GitHub पर जुड़ते रहेंगे।',
+      'projects.lead': 'मेरे अकादमिक और पोर्टफ़ोलियो प्रोजेक्ट।',
       'education.title': 'शिक्षा',
       'education.lead': 'विवरण देखने के लिए किसी प्रविष्टि पर क्लिक करें।',
       'learning.title': 'ऑनलाइन कोर्स और प्रमाणपत्र',
@@ -93,7 +93,7 @@
       'lab.title': 'انٹرایکٹو لیب',
       'lab.lead': 'تین چھوٹے ٹولز جو دکھاتے ہیں کہ میں ریاضی کیسے جانچتا ہوں، عددی طریقے کیسے چلاتا ہوں اور روبوٹ کے کاموں پر کیسے استدلال کرتا ہوں۔',
       'projects.title': 'پروجیکٹس',
-      'projects.lead': 'تعلیمی کام؛ مکمل ہوتے ہی مزید کام GitHub پر شامل ہوتا رہے گا۔',
+      'projects.lead': 'میرے تعلیمی اور پورٹ فولیو پروجیکٹس۔',
       'education.title': 'تعلیم',
       'education.lead': 'تفصیل دیکھنے کے لیے کسی اندراج پر کلک کریں۔',
       'learning.title': 'آن لائن کورسز اور اسناد',
@@ -211,7 +211,7 @@
   /* ---------------- Expertise tabs (content from the resume) ---------------- */
   var EXPERTISE = [
     { id: 'math', name: 'Mathematics', k: 1,
-      topics: ['Calculus', 'Linear algebra', 'Abstract algebra', 'Discrete mathematics', 'Real & functional analysis', 'Topology', 'Differential equations', 'Geometry', 'Numerical methods', 'Complex analysis (ongoing)', 'Differentiable manifolds (ongoing)', 'Wavelets (ongoing)'],
+      topics: ['Calculus', 'Linear algebra', 'Abstract algebra', 'Discrete mathematics', 'Real & functional analysis', 'Topology', 'Differential equations', 'Geometry', 'Numerical methods', 'Complex analysis', 'Differentiable manifolds', 'Wavelets'],
       detail: 'Numerical methods cover root-finding, interpolation, approximation, integration, error estimation and stability analysis.',
       use: 'Examining multistep solutions, numerical accuracy and mathematical explanations.' },
     { id: 'coding', name: 'Coding', k: 2,
@@ -219,8 +219,8 @@
       detail: 'Coursework-based foundation in C, Java and web fundamentals.',
       use: 'Tracing program execution, interpreting code and examining input-output behaviour.' },
     { id: 'cs', name: 'Computer Science', k: 6,
-      topics: ['Linked lists', 'Stacks & queues', 'Trees & graphs', 'Searching & sorting', 'Time/space complexity', 'Operating systems', 'Scheduling & synchronization', 'Deadlocks', 'Memory & file systems', 'DBMS & SQL (ongoing)'],
-      detail: 'Data structures and algorithms, operating systems, and ongoing DBMS study covering relational models, keys, normalization, transactions and SQL.',
+      topics: ['Linked lists', 'Stacks & queues', 'Trees & graphs', 'Searching & sorting', 'Time/space complexity', 'Operating systems', 'Scheduling & synchronization', 'Deadlocks', 'Memory & file systems', 'DBMS & SQL'],
+      detail: 'Data structures and algorithms, operating systems, and DBMS study covering relational models, keys, normalization, transactions and SQL.',
       use: 'Reasoning about task sequences, program state and structured data.' },
     { id: 'physics', name: 'Physics', k: 4,
       topics: ['Mechanics', 'Motion & forces', 'Oscillations', 'Electromagnetism', 'Optics', 'Thermodynamics', 'Electronics', 'Modern physics', 'Lagrangian & Hamiltonian mechanics'],
@@ -534,23 +534,21 @@
 
   /* ---------------- Education & credentials ---------------- */
   var EDU = [
-    { when: 'Ongoing', what: 'M.Sc. Mathematics with Computer Science', where: 'Jamia Millia Islamia, New Delhi',
-      body: 'Mathematical reasoning and numerical analysis alongside programming, algorithms and operating systems; ongoing advanced mathematics and DBMS study. Programming, data-structure, operating-system and database laboratory components connect theory with computing practice.' },
-    { when: 'Completed', what: 'Bachelor of Science (Mathematics, Physics, Chemistry)', where: 'Maharaja Surajmal Brij Vishvavidyalaya, Bharatpur, Rajasthan',
+    { when: '', what: 'M.Sc. Mathematics with Computer Science', where: 'Jamia Millia Islamia, New Delhi',
+      body: 'Mathematical reasoning and numerical analysis alongside programming, algorithms and operating systems; advanced mathematics and DBMS study. Programming, data-structure, operating-system and database laboratory components connect theory with computing practice.' },
+    { when: '', what: 'Bachelor of Science (Mathematics, Physics, Chemistry)', where: 'Maharaja Surajmal Brij Vishvavidyalaya, Bharatpur, Rajasthan',
       body: 'Mathematical problem solving, physical principles, chemical processes and laboratory coursework gave a multidisciplinary foundation for scientific reasoning and interpreting experimental observations.' },
-    { when: 'Completed', what: 'Senior Secondary (Science)', where: 'Sanatan Dharm Shiksha Sadan Senior Secondary School, Dholpur · Board of Secondary Education, Rajasthan',
+    { when: '', what: 'Senior Secondary (Science)', where: 'Sanatan Dharm Shiksha Sadan Senior Secondary School, Dholpur · Board of Secondary Education, Rajasthan',
       body: 'Mathematics, Physics, Chemistry, English and Hindi: foundation in quantitative reasoning, science and written comprehension.' },
-    { when: 'Completed', what: 'Secondary', where: 'Ikra Secondary School, Dholpur · Board of Secondary Education, Rajasthan',
+    { when: '', what: 'Secondary', where: 'Ikra Secondary School, Dholpur · Board of Secondary Education, Rajasthan',
       body: 'Mathematics, Science, Social Studies, English, Hindi and Urdu; Foundation of Information Technology.' }
   ];
   var tl = $('#timeline');
   EDU.forEach(function (e, i) {
     var bodyId = 'edu-body-' + i;
-    var btn = el('button', { class: 'tl-btn', type: 'button', 'aria-expanded': 'false', 'aria-controls': bodyId }, [
-      el('span', { class: 'when', text: e.when }),
-      el('span', { class: 'what', text: e.what }),
-      el('span', { class: 'where', text: e.where })
-    ]);
+    var lines = [el('span', { class: 'what', text: e.what }), el('span', { class: 'where', text: e.where })];
+    if (e.when) lines.unshift(el('span', { class: 'when', text: e.when }));
+    var btn = el('button', { class: 'tl-btn', type: 'button', 'aria-expanded': 'false', 'aria-controls': bodyId }, lines);
     var body = el('div', { class: 'tl-body', id: bodyId, text: e.body });
     var li = el('li', { class: 'tl-item', 'data-k': (i % 7) + 1 }, [btn, body]);
     btn.addEventListener('click', function () {
