@@ -209,26 +209,38 @@
     },
     {
       "id": "direction",
-      "kw": ["!future", "!plans", "!goal", "!goals", "aim", "aspiration", "next", "heading", "interests", "interested in", "ambition", "what does he want", "आगे", "!भविष्य", "!लक्ष्य", "!योजना", "रुचि", "!مستقبل", "!ہدف", "!منصوبہ", "دلچسپی", "machine learning", "मशीन लर्निंग", "मशीन लर्निग", "مشین لرننگ"],
+      "kw": ["!future", "!career", "!करियर", "!कैरियर", "!کیریئر", "!plans", "!goal", "!goals", "aim", "aspiration", "next", "heading", "interests", "interested in", "ambition", "what does he want", "आगे", "!भविष्य", "!लक्ष्य", "!योजना", "रुचि", "!مستقبل", "!ہدف", "!منصوبہ", "دلچسپی", "machine learning", "मशीन लर्निंग", "मशीन लर्निग", "مشین لرننگ"],
       "see": "#about",
       "related": ["certificates", "project", "contact"],
       "q": {"en": "What are his future plans?", "hi": "उनकी आगे की योजना क्या है?", "ur": "ان کا آگے کا منصوبہ کیا ہے؟"},
       "a": {
-        "en": "Mukeem wants to do more research to grow in AI and robotic science, and to work on machine learning and artificial intelligence projects. His Kaggle certificates in Python and Intro to Machine Learning are the starting point.",
-        "hi": "मुकीम AI और रोबोटिक विज्ञान में आगे बढ़ने के लिए और रिसर्च करना चाहते हैं, और मशीन लर्निंग व आर्टिफ़िशियल इंटेलिजेंस के प्रोजेक्ट पर काम करना चाहते हैं। Kaggle के Python और Intro to Machine Learning सर्टिफ़िकेट उनकी शुरुआत हैं।",
-        "ur": "مکیم اے آئی اور روبوٹک سائنس میں آگے بڑھنے کے لیے مزید تحقیق کرنا چاہتے ہیں، اور مشین لرننگ اور مصنوعی ذہانت کے پروجیکٹس پر کام کرنا چاہتے ہیں۔ Kaggle کی Python اور Intro to Machine Learning اسناد ان کی ابتدا ہیں۔"
+        "en": "Mukeem wants to do more research to grow in AI and robotic science, and to work on machine learning and artificial intelligence projects. His Kaggle certificates in Python and Intro to Machine Learning are the starting point. He wants to build his career in AI training.",
+        "hi": "मुकीम AI और रोबोटिक विज्ञान में आगे बढ़ने के लिए और रिसर्च करना चाहते हैं, और मशीन लर्निंग व आर्टिफ़िशियल इंटेलिजेंस के प्रोजेक्ट पर काम करना चाहते हैं। Kaggle के Python और Intro to Machine Learning सर्टिफ़िकेट उनकी शुरुआत हैं। वे AI ट्रेनिंग में अपना करियर बनाना चाहते हैं।",
+        "ur": "مکیم اے آئی اور روبوٹک سائنس میں آگے بڑھنے کے لیے مزید تحقیق کرنا چاہتے ہیں، اور مشین لرننگ اور مصنوعی ذہانت کے پروجیکٹس پر کام کرنا چاہتے ہیں۔ Kaggle کی Python اور Intro to Machine Learning اسناد ان کی ابتدا ہیں۔ وہ اے آئی ٹریننگ میں اپنا کیریئر بنانا چاہتے ہیں۔"
+      }
+    },
+    {
+      "id": "experience",
+      "kw": ["!experience", "!work experience", "!working", "!currently working", "!what work", "!what does he do", "!कार्य अनुभव", "!अनुभव", "!काम का अनुभव", "अभी काम", "काम करते", "वर्तमान", "!تجربہ", "!کام کا تجربہ", "موجودہ", "کام کرتے"],
+      "see": "#experience",
+      "related": ["ai_fit", "project", "direction"],
+      "q": {"en": "What is his work experience?", "hi": "उनका कार्य अनुभव क्या है?", "ur": "ان کا کام کا تجربہ کیا ہے؟"},
+      "a": {
+        "en": "Mukeem currently works as an Agentic AI Trainer and a Robotic AI Trainer on mathematics and coding projects, checking AI reasoning and code. He wants to build his career in AI training. The site does not list employers, dates, rates or references, so please email him for those (WhatsApp also works).",
+        "hi": "मुकीम इस समय गणित और कोडिंग प्रोजेक्ट्स पर एजेंटिक AI ट्रेनर और रोबोटिक AI ट्रेनर के रूप में काम कर रहे हैं, जहाँ वे AI के तर्क और कोड की जाँच करते हैं। वे AI ट्रेनिंग में अपना करियर बनाना चाहते हैं। साइट पर नियोक्ता, तारीख़ें, दरें या संदर्भ नहीं दिए गए हैं, इसलिए इनके लिए कृपया उन्हें ईमेल करें (व्हाट्सऐप भी चलेगा)।",
+        "ur": "مکیم اس وقت ریاضی اور کوڈنگ پروجیکٹس پر ایجنٹک اے آئی ٹرینر اور روبوٹک اے آئی ٹرینر کے طور پر کام کر رہے ہیں، جہاں وہ اے آئی کے استدلال اور کوڈ کی جانچ کرتے ہیں۔ وہ اے آئی ٹریننگ میں اپنا کیریئر بنانا چاہتے ہیں۔ سائٹ پر آجر، تاریخیں، نرخ یا حوالے درج نہیں ہیں، اس لیے ان کے لیے براہِ کرم انہیں ای میل کریں (واٹس ایپ بھی چلے گا)۔"
       }
     },
     {
       "id": "not_covered",
-      "kw": ["!experience", "!work experience", "job", "jobs", "employer", "company", "internship", "!salary", "rate", "rates", "fee", "fees", "charge", "price", "cost", "available", "!availability", "notice period", "hire", "hiring", "!references", "reference", "!freelance", "!outlier", "!handshake", "!अनुभव", "नौकरी", "!वेतन", "फ़ीस", "फीस", "!उपलब्धता", "!تجربہ", "ملازمت", "!تنخواہ", "فیس", "!دستیابی"],
+      "kw": ["job", "jobs", "employer", "company", "internship", "!salary", "rate", "rates", "fee", "fees", "charge", "price", "cost", "available", "!availability", "notice period", "hire", "hiring", "!references", "reference", "!freelance", "!outlier", "!handshake", "नौकरी", "!वेतन", "फ़ीस", "फीस", "!उपलब्धता", "ملازمت", "!تنخواہ", "فیس", "!دستیابی"],
       "see": "#contact",
       "related": ["contact", "ai_fit", "project"],
-      "q": {"en": "Does he have work experience?", "hi": "क्या उनके पास काम का अनुभव है?", "ur": "کیا ان کے پاس کام کا تجربہ ہے؟"},
+      "q": {"en": "What is his salary or availability?", "hi": "उनका वेतन या उपलब्धता क्या है?", "ur": "ان کی تنخواہ یا دستیابی کیا ہے؟"},
       "a": {
-        "en": "This site does not list work experience, rates, availability or references, so I can't answer that. Please email Mukeem (WhatsApp also works). He is open to Agentic AI Trainer and Robotic AI Trainer roles, and the site shows his studies, skills, projects and certificates.",
-        "hi": "इस साइट पर काम का अनुभव, दरें, उपलब्धता या संदर्भ नहीं दिए गए हैं, इसलिए मैं इसका जवाब नहीं दे सकता। कृपया मुकीम को ईमेल करें (व्हाट्सऐप भी चलेगा)। वे एजेंटिक AI ट्रेनर और रोबोटिक AI ट्रेनर की भूमिकाओं के लिए उपलब्ध हैं, और साइट उनकी पढ़ाई, कौशल, प्रोजेक्ट और सर्टिफ़िकेट दिखाती है।",
-        "ur": "اس سائٹ پر کام کا تجربہ، نرخ، دستیابی یا حوالے درج نہیں ہیں، اس لیے میں اس کا جواب نہیں دے سکتا۔ براہِ کرم مکیم کو ای میل کریں (واٹس ایپ بھی چلے گا)۔ وہ ایجنٹک اے آئی ٹرینر اور روبوٹک اے آئی ٹرینر کے کرداروں کے لیے دستیاب ہیں، اور سائٹ ان کی تعلیم، مہارتیں، پروجیکٹس اور اسناد دکھاتی ہے۔"
+        "en": "This site does not list rates, availability, employers or references, so I can't answer that. Please email Mukeem (WhatsApp also works). He is open to Agentic AI Trainer and Robotic AI Trainer roles, and the site shows his studies, skills, projects and certificates.",
+        "hi": "इस साइट पर दरें, उपलब्धता, नियोक्ता या संदर्भ नहीं दिए गए हैं, इसलिए मैं इसका जवाब नहीं दे सकता। कृपया मुकीम को ईमेल करें (व्हाट्सऐप भी चलेगा)। वे एजेंटिक AI ट्रेनर और रोबोटिक AI ट्रेनर की भूमिकाओं के लिए उपलब्ध हैं, और साइट उनकी पढ़ाई, कौशल, प्रोजेक्ट और सर्टिफ़िकेट दिखाती है।",
+        "ur": "اس سائٹ پر نرخ، دستیابی، آجر یا حوالے درج نہیں ہیں، اس لیے میں اس کا جواب نہیں دے سکتا۔ براہِ کرم مکیم کو ای میل کریں (واٹس ایپ بھی چلے گا)۔ وہ ایجنٹک اے آئی ٹرینر اور روبوٹک اے آئی ٹرینر کے کرداروں کے لیے دستیاب ہیں، اور سائٹ ان کی تعلیم، مہارتیں، پروجیکٹس اور اسناد دکھاتی ہے۔"
       }
     }
   ],
@@ -249,7 +261,7 @@
       "contactLabel": "Contact Mukeem",
       "thinking": "Thinking…",
       "aiTag": "AI-generated, may contain mistakes",
-      "note": "Answers come from this website's information and may contain mistakes. Please don't share personal details. Questions that need AI are processed by an AI service on Cloudflare. Your name, visit time and any rating or message you send are saved for Mukeem to read; your questions are not.",
+      "note": "May contain errors. Name and rating saved.",
       "greeting": "Hello! I can answer questions about Mukeem's studies, skills, projects and certificates. Pick a question below or type your own.",
       "thanks": "You're welcome! Ask anything else about Mukeem, or email him directly.",
       "notCovered": "I don't have that information on this site. The quickest way to ask Mukeem is by email; WhatsApp also works.",
@@ -301,7 +313,7 @@
       "contactLabel": "मुकीम से संपर्क",
       "thinking": "सोच रहा हूँ…",
       "aiTag": "AI द्वारा बनाया गया, ग़लतियाँ हो सकती हैं",
-      "note": "जवाब इस वेबसाइट की जानकारी से आते हैं और उनमें ग़लतियाँ हो सकती हैं। कृपया निजी जानकारी न लिखें। जिन सवालों के लिए AI चाहिए, वे Cloudflare की AI सेवा से प्रोसेस होते हैं। आपका नाम, आने का समय और जो रेटिंग या संदेश आप भेजें, वे मुकीम के पढ़ने के लिए सहेजे जाते हैं; आपके सवाल नहीं।",
+      "note": "ग़लतियाँ संभव हैं। नाम, रेटिंग सेव होती है।",
       "greeting": "नमस्ते! मैं मुकीम की पढ़ाई, कौशल, प्रोजेक्ट और सर्टिफ़िकेट के बारे में सवालों के जवाब दे सकता हूँ। नीचे से कोई सवाल चुनें या अपना सवाल लिखें।",
       "thanks": "आपका स्वागत है! मुकीम के बारे में कुछ और पूछें, या उन्हें सीधे ईमेल करें।",
       "notCovered": "यह जानकारी मेरे पास इस साइट पर नहीं है। मुकीम से पूछने का सबसे तेज़ तरीक़ा ईमेल है; व्हाट्सऐप भी चलेगा।",
@@ -353,7 +365,7 @@
       "contactLabel": "مکیم سے رابطہ",
       "thinking": "سوچ رہا ہوں…",
       "aiTag": "اے آئی کا بنایا ہوا، غلطیاں ہو سکتی ہیں",
-      "note": "جوابات اس ویب سائٹ کی معلومات سے آتے ہیں اور ان میں غلطیاں ہو سکتی ہیں۔ براہِ کرم ذاتی معلومات نہ لکھیں۔ جن سوالوں کے لیے اے آئی چاہیے وہ Cloudflare کی اے آئی سروس سے پروسیس ہوتے ہیں۔ آپ کا نام، آنے کا وقت اور جو ریٹنگ یا پیغام آپ بھیجیں وہ مکیم کے پڑھنے کے لیے محفوظ کیے جاتے ہیں؛ آپ کے سوال نہیں۔",
+      "note": "غلطیاں ممکن ہیں۔ نام، ریٹنگ محفوظ ہوتی ہے۔",
       "greeting": "السلام علیکم! میں مکیم کی تعلیم، مہارتوں، پروجیکٹس اور اسناد کے بارے میں سوالوں کے جواب دے سکتا ہوں۔ نیچے سے کوئی سوال چنیں یا اپنا سوال لکھیں۔",
       "thanks": "خوش آمدید! مکیم کے بارے میں کچھ اور پوچھیں، یا انہیں براہِ راست ای میل کریں۔",
       "notCovered": "یہ معلومات میرے پاس اس سائٹ پر نہیں ہیں۔ مکیم سے پوچھنے کا سب سے تیز طریقہ ای میل ہے؛ واٹس ایپ بھی چلے گا۔",
