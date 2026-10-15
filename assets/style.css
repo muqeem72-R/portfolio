@@ -400,3 +400,6 @@ p { margin: 0 0 1em; }
   .card { box-shadow: none; }
   .section { padding: 24px 0; }
 }
+
+/* Work experience: space between the two cards */
+#experience .card + .card { margin-top: 20px; }
