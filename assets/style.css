@@ -403,3 +403,24 @@ p { margin: 0 0 1em; }
 
 /* Work experience: space between the two cards */
 #experience .card + .card { margin-top: 20px; }
+
+/* "24 research papers reviewed" is a link to the papers page; it looks the same, with a hover and focus cue */
+.stats a { display: block; color: inherit; text-decoration: none; border-radius: 10px; outline-offset: 4px; }
+.stats a:hover span, .stats a:focus-visible span { color: var(--text); text-decoration: underline; text-underline-offset: 3px; }
+.stats a:focus-visible { outline: 2px solid var(--accent); }
+
+/* Papers page */
+.page-title { font-size: clamp(1.7rem, 3.5vw, 2.4rem); letter-spacing: -.01em; }
+.page-title::after { content: ""; display: block; width: 72px; height: 4px; border-radius: 4px; margin-top: 10px; background: linear-gradient(90deg, var(--c1), var(--c7), var(--c4), var(--c3)); }
+.back-link { display: inline-flex; align-items: center; min-height: 44px; color: var(--muted); text-decoration: none; font-weight: 600; }
+.back-link:hover { color: var(--text); text-decoration: underline; }
+.papers { list-style: none; margin: 0; padding: 0; display: grid; gap: 16px; }
+.paper { display: grid; grid-template-columns: 44px 1fr; gap: 16px; align-items: start; border-inline-start: 4px solid var(--k); padding: 20px; }
+.paper-no { display: grid; place-items: center; width: 44px; height: 44px; border-radius: 12px; font-weight: 800; color: var(--k); background: color-mix(in srgb, var(--k) 14%, var(--surface)); }
+.paper-body { min-width: 0; }
+.section .paper-title { font-size: 1.05rem; margin: 0 0 6px; overflow-wrap: anywhere; }
+.section .paper-title::after { display: none; }
+.paper-meta, .paper-venue { margin: 0 0 6px; color: var(--muted); font-size: .93rem; overflow-wrap: anywhere; }
+.paper-venue { font-style: italic; margin-bottom: 12px; }
+@media (max-width: 480px) { .paper { grid-template-columns: 1fr; gap: 10px; padding: 16px; } }
+.paper-link { min-height: 44px; }
