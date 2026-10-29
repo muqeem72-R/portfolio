@@ -127,12 +127,22 @@
       "id": "project",
       "kw": ["!project", "!projects", "research", "emotion", "multimodal", "papers", "literature review", "minor project", "thesis", "!प्रोजेक्ट", "परियोजना", "शोध", "रिसर्च", "इमोशन", "!پروجیکٹ", "تحقیق", "ریسرچ"],
       "see": "#projects",
-      "related": ["maths", "ai_fit", "profiles"],
+      "related": ["maths", "personal_projects", "ai_fit"],
       "q": {"en": "Tell me about his project", "hi": "उनके प्रोजेक्ट के बारे में बताइए", "ur": "ان کے پروجیکٹ کے بارے میں بتائیے"},
       "a": {
         "en": "His M.Sc. minor project at Jamia Millia Islamia is a literature review of 24 research papers on multimodal emotion recognition and reasoning across audio, video and text. It compares feature extraction, fusion strategies, benchmark datasets and model architectures, and looks at explainability, missing or noisy modalities, temporal information leakage and cultural bias. It is on his GitHub.",
         "hi": "जामिया मिल्लिया इस्लामिया में उनका M.Sc. माइनर प्रोजेक्ट ऑडियो, वीडियो और टेक्स्ट में मल्टीमोडल इमोशन रिकग्निशन और रीज़निंग पर 24 शोध-पत्रों की साहित्य-समीक्षा है। इसमें फ़ीचर एक्सट्रैक्शन, फ़्यूज़न रणनीतियों, बेंचमार्क डेटासेट और मॉडल आर्किटेक्चर की तुलना की गई है, और व्याख्येयता, छूटे या शोरगुल वाले मोडैलिटी, समय-संबंधी सूचना रिसाव और सांस्कृतिक पूर्वाग्रह पर भी विचार किया गया है। यह उनके GitHub पर है।",
         "ur": "جامعہ ملیہ اسلامیہ میں ان کا ایم ایس سی مائنر پروجیکٹ آڈیو، ویڈیو اور ٹیکسٹ میں ملٹی موڈل ایموشن ریکگنیشن اور ریزننگ پر 24 تحقیقی مقالوں کا ادبی جائزہ ہے۔ اس میں فیچر ایکسٹریکشن، فیوژن حکمتِ عملیوں، بینچ مارک ڈیٹا سیٹس اور ماڈل آرکیٹیکچر کا موازنہ کیا گیا ہے، اور وضاحت پذیری، غائب یا شور والے موڈیلیٹیز، وقت سے متعلق معلومات کے اخراج اور ثقافتی تعصب پر بھی غور کیا گیا ہے۔ یہ ان کے GitHub پر ہے۔"
+      }
+    },
+    {
+      "id": "personal_projects",
+      "kw": ["!python quest", "python quest", "!typelab", "typelab", "type lab", "!game", "browser game", "typing trainer", "typing tutor", "typing test", "typing app", "touch typing", "!typing", "side project", "personal project", "what else has he built", "has he built", "has he made", "what has he built", "what did he build", "built any", "made any"],
+      "see": "#projects",
+      "related": ["project", "coding", "contact"],
+      "q": {"en": "What else has he built?"},
+      "a": {
+        "en": "Besides his M.Sc. minor project, Mukeem has built two personal projects. Python Quest is a free browser game that teaches Python through 8 islands and 40 challenges, with no typing needed. TypeLab is a free touch-typing trainer with adaptive practice, a 24-lesson course, speed tests, a leaderboard and certificates. Both are in the Projects section, each with a live link and a GitHub link."
       }
     },
     {
