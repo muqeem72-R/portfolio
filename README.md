@@ -15,7 +15,8 @@ Plain HTML, CSS and JavaScript. No build step, no dependencies.
   - **Numerical methods**: Newton's method and the trapezoidal rule drawn on a canvas
   - **Robot tasks**: order the steps of a task, then diagnose a failure using the physics
 - Online courses and certificates (Kaggle, HackerRank), kept separate from formal education
-- Live repository list from the GitHub API (hidden until there is a repository to show)
+- Projects: the M.Sc. minor project plus two personal projects, Python Quest (a browser game that teaches Python) and TypeLab (a touch-typing trainer), each with its own repository, live site and "View on GitHub" button
+- Live repository list from the GitHub API (hidden until there is a repository to show; the projects above and this site's own repository are skipped)
 - "Ask about Mukeem" assistant (English / हिन्दी / اردو): asks the visitor's name first, answers from a fixed list of facts (suggested questions + keyword search), uses free Cloudflare Workers AI only when the facts are not enough, offers email first and WhatsApp second, ends with an optional 5-face rating
 - Responsive down to 320px wide, 44px touch targets, keyboard accessible, respects reduced motion, print-friendly
 
@@ -44,6 +45,7 @@ Stored per conversation: name (optional), language, time, rating, message, numbe
 - Education entries: `EDU` list in `assets/app.js`
 - Courses and certificates: `LEARNING` list in `assets/app.js` (add one entry per course)
 - Profile links: `PROFILES` list in `assets/app.js`
+- Projects: the cards in the Projects section of `index.html`; repositories to hide from the live list: `SKIP_NAMES` in `assets/app.js`
 - Assistant answers, questions and interface text: `assets/assistant-kb.json` (English, Hindi and Urdu in one place; used by both the page and the server)
 - Practice problems: `BANK` in `assets/app.js`; lab cases in `assets/lab.js`
 
