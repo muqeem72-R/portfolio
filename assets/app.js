@@ -558,13 +558,13 @@
 
   /* ---------------- Education & credentials ---------------- */
   var EDU = [
-    { when: '', what: 'M.Sc. Mathematics with Computer Science', where: 'Jamia Millia Islamia, New Delhi',
+    { when: 'Pursuing', what: 'M.Sc. Mathematics with Computer Science', where: 'Jamia Millia Islamia, New Delhi',
       body: 'Mathematical reasoning and numerical analysis alongside programming, algorithms and operating systems; advanced mathematics and DBMS study. Programming, data-structure, operating-system and database laboratory components connect theory with computing practice.' },
-    { when: '', what: 'Bachelor of Science (Mathematics, Physics, Chemistry)', where: 'Maharaja Surajmal Brij Vishvavidyalaya, Bharatpur, Rajasthan',
+    { when: '2024', what: 'Bachelor of Science (Mathematics, Physics, Chemistry)', where: 'Maharaja Surajmal Brij Vishvavidyalaya, Bharatpur, Rajasthan',
       body: 'Mathematical problem solving, physical principles, chemical processes and laboratory coursework gave a multidisciplinary foundation for scientific reasoning and interpreting experimental observations.' },
-    { when: '', what: 'Senior Secondary (Science)', where: 'Sanatan Dharm Shiksha Sadan Senior Secondary School, Dholpur · Board of Secondary Education, Rajasthan',
+    { when: '2018', what: 'Senior Secondary (Science)', where: 'Sanatan Dharm Shiksha Sadan Senior Secondary School, Dholpur · Board of Secondary Education, Rajasthan',
       body: 'Mathematics, Physics, Chemistry, English and Hindi: foundation in quantitative reasoning, science and written comprehension.' },
-    { when: '', what: 'Secondary', where: 'Ikra Secondary School, Dholpur · Board of Secondary Education, Rajasthan',
+    { when: '2016', what: 'Secondary', where: 'Ikra Secondary School, Dholpur · Board of Secondary Education, Rajasthan',
       body: 'Mathematics, Science, Social Studies, English, Hindi and Urdu; Foundation of Information Technology.' }
   ];
   var tl = $('#timeline');
