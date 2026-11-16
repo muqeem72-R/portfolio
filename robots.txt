@@ -2,4 +2,4 @@ User-agent: *
 Allow: /
 Disallow: /api/
 
-Sitemap: https://mukeemkhan.pages.dev/sitemap.xml
+Sitemap: https://muqeem.pages.dev/sitemap.xml
