@@ -628,7 +628,7 @@
   /* ---------------- Live GitHub repos ---------------- */
   (function loadRepos() {
     var block = $('#more-repos'), host = $('#repos');
-    var SKIP_NAMES = ['multimodal-emotion-recognition-and-reasoning', 'python-quest', 'typelab', 'portfolio'];   // shown as featured projects above, or this website's own repo
+    var SKIP_NAMES = ['multimodal-emotion-recognition-and-reasoning', 'python-quest', 'typelab', 'algomashq', 'portfolio'];   // shown as featured projects above, or this website's own repo
     var SKIP_IDS = [1169720950, 1419505212];                              // hidden on purpose (ids survive renames): learning-roadmap repo, and this website's own repo
     var KEY = 'gh-repos-v1';
 

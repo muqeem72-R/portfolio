@@ -137,12 +137,12 @@
     },
     {
       "id": "personal_projects",
-      "kw": ["!python quest", "python quest", "!typelab", "typelab", "type lab", "!game", "browser game", "typing trainer", "typing tutor", "typing test", "typing app", "touch typing", "!typing", "side project", "personal project", "what else has he built", "has he built", "has he made", "what has he built", "what did he build", "built any", "made any"],
+      "kw": ["!python quest", "python quest", "!typelab", "typelab", "type lab", "!game", "browser game", "typing trainer", "typing tutor", "typing test", "typing app", "touch typing", "!typing", "algomashq", "algo mashq", "dsa platform", "learning platform", "side project", "personal project", "what else has he built", "has he built", "has he made", "what has he built", "what did he build", "built any", "made any"],
       "see": "#projects",
       "related": ["project", "coding", "contact"],
       "q": {"en": "What else has he built?"},
       "a": {
-        "en": "Besides his M.Sc. minor project, Mukeem has built two personal projects. Python Quest is a free browser game that teaches Python through 8 islands and 40 challenges, with no typing needed. TypeLab is a free touch-typing trainer with adaptive practice, a 24-lesson course, speed tests, a leaderboard and certificates. Both are in the Projects section, each with a live link and a GitHub link."
+        "en": "Besides his M.Sc. minor project, Mukeem has built three personal projects. Python Quest is a free browser game that teaches Python through 8 islands and 40 challenges, with no typing needed. TypeLab is a free touch-typing trainer with adaptive practice, a 24-lesson course, speed tests, a leaderboard and certificates. AlgoMashq is a free platform for learning Data Structures and Algorithms, with 1,000 original problems across 10 topics, concept notes, hints and worked solutions. All three are in the Projects section, each with a live link and a GitHub link."
       }
     },
     {

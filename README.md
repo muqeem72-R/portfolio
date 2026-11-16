@@ -15,7 +15,7 @@ Plain HTML, CSS and JavaScript. No build step, no dependencies.
   - **Numerical methods**: Newton's method and the trapezoidal rule drawn on a canvas
   - **Robot tasks**: order the steps of a task, then diagnose a failure using the physics
 - Online courses and certificates (Kaggle, HackerRank), kept separate from formal education
-- Projects: the M.Sc. minor project plus two personal projects, Python Quest (a browser game that teaches Python) and TypeLab (a touch-typing trainer), each with its own repository, live site and "View on GitHub" button
+- Projects: the M.Sc. minor project plus three personal projects, Python Quest (a browser game that teaches Python), TypeLab (a touch-typing trainer) and AlgoMashq (a Data Structures and Algorithms learning platform), each with its own repository, live site and "View on GitHub" button
 - Live repository list from the GitHub API (hidden until there is a repository to show; the projects above and this site's own repository are skipped)
 - "Ask about Mukeem" assistant (English / हिन्दी / اردو): asks the visitor's name first, answers from a fixed list of facts (suggested questions + keyword search), uses free Cloudflare Workers AI only when the facts are not enough, offers email first and WhatsApp second, ends with an optional 5-face rating
 - Responsive down to 320px wide, 44px touch targets, keyboard accessible, respects reduced motion, print-friendly
